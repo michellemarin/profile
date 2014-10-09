@@ -1,0 +1,381 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'gulp',
+1 verbose cli   'gulp-sass',
+1 verbose cli   'gulp-connect',
+1 verbose cli   'gulp-jshint-stylish' ]
+2 info using npm@2.0.2
+3 info using node@v0.10.32
+4 verbose node symlink /usr/local/bin/node
+5 verbose cache add [ 'gulp', null ]
+6 verbose cache add spec="gulp" args=["gulp",null]
+7 verbose parsed spec { raw: 'gulp',
+7 verbose parsed spec   scope: null,
+7 verbose parsed spec   name: 'gulp',
+7 verbose parsed spec   rawSpec: '',
+7 verbose parsed spec   spec: '*',
+7 verbose parsed spec   type: 'range' }
+8 verbose cache add [ 'gulp-sass', null ]
+9 verbose cache add spec="gulp-sass" args=["gulp-sass",null]
+10 verbose parsed spec { raw: 'gulp-sass',
+10 verbose parsed spec   scope: null,
+10 verbose parsed spec   name: 'gulp-sass',
+10 verbose parsed spec   rawSpec: '',
+10 verbose parsed spec   spec: '*',
+10 verbose parsed spec   type: 'range' }
+11 verbose cache add [ 'gulp-connect', null ]
+12 verbose cache add spec="gulp-connect" args=["gulp-connect",null]
+13 verbose parsed spec { raw: 'gulp-connect',
+13 verbose parsed spec   scope: null,
+13 verbose parsed spec   name: 'gulp-connect',
+13 verbose parsed spec   rawSpec: '',
+13 verbose parsed spec   spec: '*',
+13 verbose parsed spec   type: 'range' }
+14 verbose cache add [ 'gulp-jshint-stylish', null ]
+15 verbose cache add spec="gulp-jshint-stylish" args=["gulp-jshint-stylish",null]
+16 verbose parsed spec { raw: 'gulp-jshint-stylish',
+16 verbose parsed spec   scope: null,
+16 verbose parsed spec   name: 'gulp-jshint-stylish',
+16 verbose parsed spec   rawSpec: '',
+16 verbose parsed spec   spec: '*',
+16 verbose parsed spec   type: 'range' }
+17 verbose parsed spec { raw: 'gulp',
+17 verbose parsed spec   scope: null,
+17 verbose parsed spec   name: 'gulp',
+17 verbose parsed spec   rawSpec: '',
+17 verbose parsed spec   spec: '*',
+17 verbose parsed spec   type: 'range' }
+18 verbose addNamed [ 'gulp', '*' ]
+19 verbose addNamed [ null, '*' ]
+20 verbose parsed spec { raw: 'gulp-sass',
+20 verbose parsed spec   scope: null,
+20 verbose parsed spec   name: 'gulp-sass',
+20 verbose parsed spec   rawSpec: '',
+20 verbose parsed spec   spec: '*',
+20 verbose parsed spec   type: 'range' }
+21 verbose addNamed [ 'gulp-sass', '*' ]
+22 verbose addNamed [ null, '*' ]
+23 verbose parsed spec { raw: 'gulp-connect',
+23 verbose parsed spec   scope: null,
+23 verbose parsed spec   name: 'gulp-connect',
+23 verbose parsed spec   rawSpec: '',
+23 verbose parsed spec   spec: '*',
+23 verbose parsed spec   type: 'range' }
+24 verbose addNamed [ 'gulp-connect', '*' ]
+25 verbose addNamed [ null, '*' ]
+26 verbose parsed spec { raw: 'gulp-jshint-stylish',
+26 verbose parsed spec   scope: null,
+26 verbose parsed spec   name: 'gulp-jshint-stylish',
+26 verbose parsed spec   rawSpec: '',
+26 verbose parsed spec   spec: '*',
+26 verbose parsed spec   type: 'range' }
+27 verbose addNamed [ 'gulp-jshint-stylish', '*' ]
+28 verbose addNamed [ null, '*' ]
+29 silly lockFile 51046861-gulp gulp@*
+30 verbose lock gulp@* /Users/michellemarin/.npm/51046861-gulp.lock
+31 silly lockFile 85a075d2-gulp-sass gulp-sass@*
+32 verbose lock gulp-sass@* /Users/michellemarin/.npm/85a075d2-gulp-sass.lock
+33 silly lockFile c7ccbb63-gulp-connect gulp-connect@*
+34 verbose lock gulp-connect@* /Users/michellemarin/.npm/c7ccbb63-gulp-connect.lock
+35 silly lockFile 61245fd5-gulp-jshint-stylish gulp-jshint-stylish@*
+36 verbose lock gulp-jshint-stylish@* /Users/michellemarin/.npm/61245fd5-gulp-jshint-stylish.lock
+37 silly addNameRange { name: 'gulp', range: '*', hasData: false }
+38 verbose mapToRegistry name gulp
+39 verbose mapToRegistry uri https://registry.npmjs.org/gulp
+40 silly addNameRange { name: 'gulp-sass', range: '*', hasData: false }
+41 verbose mapToRegistry name gulp-sass
+42 verbose mapToRegistry uri https://registry.npmjs.org/gulp-sass
+43 silly addNameRange { name: 'gulp-jshint-stylish', range: '*', hasData: false }
+44 verbose mapToRegistry name gulp-jshint-stylish
+45 verbose mapToRegistry uri https://registry.npmjs.org/gulp-jshint-stylish
+46 verbose request on initialization, where is /gulp-jshint-stylish
+47 verbose request after pass 1, where is /gulp-jshint-stylish
+48 verbose request url raw /gulp-jshint-stylish
+49 verbose request resolving registry [ 'https://registry.npmjs.org/', './gulp-jshint-stylish' ]
+50 verbose request after pass 2, where is https://registry.npmjs.org/gulp-jshint-stylish
+51 verbose request no auth needed
+52 info attempt registry request try #1 at 15:33:58
+53 verbose request id d1684b49f3c99a90
+54 http request GET https://registry.npmjs.org/gulp-jshint-stylish
+55 silly addNameRange { name: 'gulp-connect', range: '*', hasData: false }
+56 verbose mapToRegistry name gulp-connect
+57 verbose mapToRegistry uri https://registry.npmjs.org/gulp-connect
+58 verbose request on initialization, where is /gulp-sass
+59 verbose request after pass 1, where is /gulp-sass
+60 verbose request url raw /gulp-sass
+61 verbose request resolving registry [ 'https://registry.npmjs.org/', './gulp-sass' ]
+62 verbose request after pass 2, where is https://registry.npmjs.org/gulp-sass
+63 verbose request no auth needed
+64 info attempt registry request try #1 at 15:33:58
+65 verbose etag "1U7J4PX5R3VMHZ4QG21BRU43G"
+66 http request GET https://registry.npmjs.org/gulp-sass
+67 verbose request on initialization, where is /gulp
+68 verbose request after pass 1, where is /gulp
+69 verbose request url raw /gulp
+70 verbose request resolving registry [ 'https://registry.npmjs.org/', './gulp' ]
+71 verbose request after pass 2, where is https://registry.npmjs.org/gulp
+72 verbose request no auth needed
+73 info attempt registry request try #1 at 15:33:58
+74 verbose etag "4B2JMHMTDH4W22F5GVX56P6C0"
+75 http request GET https://registry.npmjs.org/gulp
+76 verbose request on initialization, where is /gulp-connect
+77 verbose request after pass 1, where is /gulp-connect
+78 verbose request url raw /gulp-connect
+79 verbose request resolving registry [ 'https://registry.npmjs.org/', './gulp-connect' ]
+80 verbose request after pass 2, where is https://registry.npmjs.org/gulp-connect
+81 verbose request no auth needed
+82 info attempt registry request try #1 at 15:33:58
+83 verbose etag "8BAR72JCOMFFRMWW8FLI66ZE6"
+84 http request GET https://registry.npmjs.org/gulp-connect
+85 http 404 https://registry.npmjs.org/gulp-jshint-stylish
+86 verbose headers { date: 'Thu, 09 Oct 2014 19:33:59 GMT',
+86 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+86 verbose headers   'content-type': 'application/json',
+86 verbose headers   'cache-control': 'max-age=0',
+86 verbose headers   'content-length': '52',
+86 verbose headers   'accept-ranges': 'bytes',
+86 verbose headers   via: '1.1 varnish',
+86 verbose headers   age: '0',
+86 verbose headers   'x-served-by': 'cache-atl6221-ATL',
+86 verbose headers   'x-cache': 'MISS',
+86 verbose headers   'x-cache-hits': '0',
+86 verbose headers   'x-timer': 'S1412883239.459619,VS0,VE109',
+86 verbose headers   'keep-alive': 'timeout=10, max=50',
+86 verbose headers   connection: 'Keep-Alive' }
+87 silly registry.get cb [ 404,
+87 silly registry.get   { date: 'Thu, 09 Oct 2014 19:33:59 GMT',
+87 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+87 silly registry.get     'content-type': 'application/json',
+87 silly registry.get     'cache-control': 'max-age=0',
+87 silly registry.get     'content-length': '52',
+87 silly registry.get     'accept-ranges': 'bytes',
+87 silly registry.get     via: '1.1 varnish',
+87 silly registry.get     age: '0',
+87 silly registry.get     'x-served-by': 'cache-atl6221-ATL',
+87 silly registry.get     'x-cache': 'MISS',
+87 silly registry.get     'x-cache-hits': '0',
+87 silly registry.get     'x-timer': 'S1412883239.459619,VS0,VE109',
+87 silly registry.get     'keep-alive': 'timeout=10, max=50',
+87 silly registry.get     connection: 'Keep-Alive' } ]
+88 silly lockFile 61245fd5-gulp-jshint-stylish gulp-jshint-stylish@*
+89 silly lockFile 61245fd5-gulp-jshint-stylish gulp-jshint-stylish@*
+90 http 200 https://registry.npmjs.org/gulp
+91 silly registry.get cb [ 200,
+91 silly registry.get   { date: 'Thu, 09 Oct 2014 19:33:59 GMT',
+91 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+91 silly registry.get     etag: '"4IMOJD703OLNE73XLZ3XLVTSR"',
+91 silly registry.get     'content-type': 'application/json',
+91 silly registry.get     'cache-control': 'max-age=60',
+91 silly registry.get     'content-length': '91058',
+91 silly registry.get     'accept-ranges': 'bytes',
+91 silly registry.get     via: '1.1 varnish',
+91 silly registry.get     age: '1408',
+91 silly registry.get     'x-served-by': 'cache-atl6226-ATL',
+91 silly registry.get     'x-cache': 'HIT',
+91 silly registry.get     'x-cache-hits': '2',
+91 silly registry.get     'x-timer': 'S1412883239.457496,VS0,VE0',
+91 silly registry.get     vary: 'Accept',
+91 silly registry.get     'keep-alive': 'timeout=10, max=50',
+91 silly registry.get     connection: 'Keep-Alive' } ]
+92 silly addNameRange number 2 { name: 'gulp', range: '*', hasData: true }
+93 silly addNameRange versions [ 'gulp',
+93 silly addNameRange   [ '0.0.1',
+93 silly addNameRange     '0.0.2',
+93 silly addNameRange     '0.0.3',
+93 silly addNameRange     '0.0.4',
+93 silly addNameRange     '0.0.5',
+93 silly addNameRange     '0.0.7',
+93 silly addNameRange     '0.0.8',
+93 silly addNameRange     '0.0.9',
+93 silly addNameRange     '0.1.0',
+93 silly addNameRange     '0.2.0',
+93 silly addNameRange     '1.0.0',
+93 silly addNameRange     '1.1.0',
+93 silly addNameRange     '1.2.0',
+93 silly addNameRange     '1.2.1',
+93 silly addNameRange     '2.0.0',
+93 silly addNameRange     '2.0.1',
+93 silly addNameRange     '2.1.0',
+93 silly addNameRange     '2.2.0',
+93 silly addNameRange     '2.3.0',
+93 silly addNameRange     '2.4.0',
+93 silly addNameRange     '2.4.1',
+93 silly addNameRange     '2.6.0',
+93 silly addNameRange     '2.6.1',
+93 silly addNameRange     '2.7.0',
+93 silly addNameRange     '3.0.0',
+93 silly addNameRange     '3.1.1',
+93 silly addNameRange     '3.1.2',
+93 silly addNameRange     '3.1.3',
+93 silly addNameRange     '3.1.4',
+93 silly addNameRange     '3.2.0',
+93 silly addNameRange     '3.2.1',
+93 silly addNameRange     '3.2.2',
+93 silly addNameRange     '3.2.3',
+93 silly addNameRange     '3.2.4',
+93 silly addNameRange     '3.2.5',
+93 silly addNameRange     '3.3.0',
+93 silly addNameRange     '3.3.1',
+93 silly addNameRange     '3.3.2',
+93 silly addNameRange     '3.3.4',
+93 silly addNameRange     '3.4.0',
+93 silly addNameRange     '3.5.0',
+93 silly addNameRange     '3.5.1',
+93 silly addNameRange     '3.5.2',
+93 silly addNameRange     '3.5.5',
+93 silly addNameRange     '3.5.6',
+93 silly addNameRange     '3.6.0',
+93 silly addNameRange     '3.6.1',
+93 silly addNameRange     '3.6.2',
+93 silly addNameRange     '3.7.0',
+93 silly addNameRange     '3.8.0',
+93 silly addNameRange     '3.8.1',
+93 silly addNameRange     '3.8.2',
+93 silly addNameRange     '3.8.3',
+93 silly addNameRange     '3.8.4',
+93 silly addNameRange     '3.8.5',
+93 silly addNameRange     '3.8.6',
+93 silly addNameRange     '3.8.7',
+93 silly addNameRange     '3.8.8' ] ]
+94 verbose addNamed [ 'gulp', '3.8.8' ]
+95 verbose addNamed [ '3.8.8', '3.8.8' ]
+96 silly lockFile 9f9512c0-gulp-3-8-8 gulp@3.8.8
+97 verbose lock gulp@3.8.8 /Users/michellemarin/.npm/9f9512c0-gulp-3-8-8.lock
+98 silly lockFile 9f9512c0-gulp-3-8-8 gulp@3.8.8
+99 silly lockFile 9f9512c0-gulp-3-8-8 gulp@3.8.8
+100 silly lockFile 51046861-gulp gulp@*
+101 silly lockFile 51046861-gulp gulp@*
+102 http 304 https://registry.npmjs.org/gulp-sass
+103 silly registry.get cb [ 304,
+103 silly registry.get   { date: 'Thu, 09 Oct 2014 19:33:59 GMT',
+103 silly registry.get     server: 'Apache',
+103 silly registry.get     via: '1.1 varnish',
+103 silly registry.get     'last-modified': 'Thu, 09 Oct 2014 19:33:59 GMT',
+103 silly registry.get     'cache-control': 'max-age=60',
+103 silly registry.get     etag: '"1U7J4PX5R3VMHZ4QG21BRU43G"',
+103 silly registry.get     'x-served-by': 'cache-atl6235-ATL',
+103 silly registry.get     'x-cache': 'HIT',
+103 silly registry.get     'x-cache-hits': '1',
+103 silly registry.get     'x-timer': 'S1412883239.454217,VS0,VE311',
+103 silly registry.get     vary: 'Accept',
+103 silly registry.get     'content-length': '0',
+103 silly registry.get     'keep-alive': 'timeout=10, max=50',
+103 silly registry.get     connection: 'Keep-Alive' } ]
+104 verbose etag https://registry.npmjs.org/gulp-sass from cache
+105 http 304 https://registry.npmjs.org/gulp-connect
+106 silly registry.get cb [ 304,
+106 silly registry.get   { date: 'Thu, 09 Oct 2014 19:33:59 GMT',
+106 silly registry.get     server: 'Apache',
+106 silly registry.get     via: '1.1 varnish',
+106 silly registry.get     'last-modified': 'Thu, 09 Oct 2014 19:33:59 GMT',
+106 silly registry.get     'cache-control': 'max-age=60',
+106 silly registry.get     etag: '"8BAR72JCOMFFRMWW8FLI66ZE6"',
+106 silly registry.get     'x-served-by': 'cache-atl6222-ATL',
+106 silly registry.get     'x-cache': 'HIT',
+106 silly registry.get     'x-cache-hits': '1',
+106 silly registry.get     'x-timer': 'S1412883239.454528,VS0,VE314',
+106 silly registry.get     vary: 'Accept',
+106 silly registry.get     'content-length': '0',
+106 silly registry.get     'keep-alive': 'timeout=10, max=50',
+106 silly registry.get     connection: 'Keep-Alive' } ]
+107 verbose etag https://registry.npmjs.org/gulp-connect from cache
+108 silly addNameRange number 2 { name: 'gulp-sass', range: '*', hasData: true }
+109 silly addNameRange versions [ 'gulp-sass',
+109 silly addNameRange   [ '0.1.0',
+109 silly addNameRange     '0.2.1',
+109 silly addNameRange     '0.2.2',
+109 silly addNameRange     '0.2.3',
+109 silly addNameRange     '0.3.0',
+109 silly addNameRange     '0.4.0',
+109 silly addNameRange     '0.4.1',
+109 silly addNameRange     '0.5.0',
+109 silly addNameRange     '0.5.1',
+109 silly addNameRange     '0.5.2',
+109 silly addNameRange     '0.6.0',
+109 silly addNameRange     '0.7.0',
+109 silly addNameRange     '0.7.1',
+109 silly addNameRange     '0.7.2',
+109 silly addNameRange     '0.7.3',
+109 silly addNameRange     '1.0.0' ] ]
+110 verbose addNamed [ 'gulp-sass', '1.0.0' ]
+111 verbose addNamed [ '1.0.0', '1.0.0' ]
+112 silly lockFile ba14037a-gulp-sass-1-0-0 gulp-sass@1.0.0
+113 verbose lock gulp-sass@1.0.0 /Users/michellemarin/.npm/ba14037a-gulp-sass-1-0-0.lock
+114 silly addNameRange number 2 { name: 'gulp-connect', range: '*', hasData: true }
+115 silly addNameRange versions [ 'gulp-connect',
+115 silly addNameRange   [ '0.0.1',
+115 silly addNameRange     '0.1.1',
+115 silly addNameRange     '0.1.2',
+115 silly addNameRange     '0.1.3',
+115 silly addNameRange     '0.1.4',
+115 silly addNameRange     '0.1.5',
+115 silly addNameRange     '0.1.6',
+115 silly addNameRange     '0.2.0',
+115 silly addNameRange     '0.3.0',
+115 silly addNameRange     '0.3.1',
+115 silly addNameRange     '0.4.0',
+115 silly addNameRange     '0.5.0',
+115 silly addNameRange     '0.6.0',
+115 silly addNameRange     '0.7.0',
+115 silly addNameRange     '0.8.0',
+115 silly addNameRange     '0.9.0',
+115 silly addNameRange     '1.0.0',
+115 silly addNameRange     '1.0.1',
+115 silly addNameRange     '1.0.2',
+115 silly addNameRange     '1.0.3',
+115 silly addNameRange     '1.0.4',
+115 silly addNameRange     '1.0.5',
+115 silly addNameRange     '1.0.6',
+115 silly addNameRange     '1.0.7',
+115 silly addNameRange     '1.0.9',
+115 silly addNameRange     '1.0.10',
+115 silly addNameRange     '1.1.0',
+115 silly addNameRange     '1.1.1',
+115 silly addNameRange     '2.0.0',
+115 silly addNameRange     '2.0.1',
+115 silly addNameRange     '2.0.2',
+115 silly addNameRange     '2.0.3',
+115 silly addNameRange     '2.0.4',
+115 silly addNameRange     '2.0.5',
+115 silly addNameRange     '2.0.6' ] ]
+116 verbose addNamed [ 'gulp-connect', '2.0.6' ]
+117 verbose addNamed [ '2.0.6', '2.0.6' ]
+118 silly lockFile c3b45804-gulp-connect-2-0-6 gulp-connect@2.0.6
+119 verbose lock gulp-connect@2.0.6 /Users/michellemarin/.npm/c3b45804-gulp-connect-2-0-6.lock
+120 silly lockFile ba14037a-gulp-sass-1-0-0 gulp-sass@1.0.0
+121 silly lockFile ba14037a-gulp-sass-1-0-0 gulp-sass@1.0.0
+122 silly lockFile 85a075d2-gulp-sass gulp-sass@*
+123 silly lockFile 85a075d2-gulp-sass gulp-sass@*
+124 silly lockFile c3b45804-gulp-connect-2-0-6 gulp-connect@2.0.6
+125 silly lockFile c3b45804-gulp-connect-2-0-6 gulp-connect@2.0.6
+126 silly lockFile c7ccbb63-gulp-connect gulp-connect@*
+127 silly lockFile c7ccbb63-gulp-connect gulp-connect@*
+128 verbose stack Error: 404 Not Found: gulp-jshint-stylish
+128 verbose stack     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:258:14)
+128 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:197:65)
+128 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:237:22)
+128 verbose stack     at Request.emit (events.js:98:17)
+128 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1146:14)
+128 verbose stack     at Request.emit (events.js:117:20)
+128 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1097:12)
+128 verbose stack     at IncomingMessage.emit (events.js:117:20)
+128 verbose stack     at _stream_readable.js:943:16
+128 verbose stack     at process._tickCallback (node.js:419:13)
+129 verbose statusCode 404
+130 verbose pkgid gulp-jshint-stylish
+131 verbose cwd /Users/michellemarin/Iron Yard/profile
+132 error Darwin 13.4.0
+133 error argv "node" "/usr/local/bin/npm" "install" "gulp" "gulp-sass" "gulp-connect" "gulp-jshint-stylish"
+134 error node v0.10.32
+135 error npm  v2.0.2
+136 error code E404
+137 error 404 Not Found: gulp-jshint-stylish
+137 error 404
+137 error 404 'gulp-jshint-stylish' is not in the npm registry.
+137 error 404 You should bug the author to publish it (or use the name yourself!)
+137 error 404
+137 error 404 Note that you can also install from a
+137 error 404 tarball, folder, http url, or git url.
+138 verbose exit [ 1, true ]
