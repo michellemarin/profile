@@ -1,0 +1,264 @@
+// * Colors and Fonts * //
+
+$text: #333;
+$white: #fff;
+$dark-blue: #244F81;
+$light-blue: #F1F6FB;
+$links: #4183C4;
+$light-gray: #F8F8F8;
+$dark-gray: #777;
+$header: #F5F5F5;
+$primary-heading: 13px/1.4 Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+$secondary-heading: 'Open Sans', Verdana, sans-serif;
+
+
+//* Global *//
+
+* {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: $primary-heading;
+  color: $text;
+  background-color: $white;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  overflow:hidden;
+}
+
+a:link {
+  color: $links;
+}
+
+a:visited {
+  color: $text;
+}
+
+p {
+  text-align: left;
+  text-decoration: none;
+  color: $text;
+  font-family: $primary-heading;
+  font-size: 1em;
+  line-height: 25px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  margin-right: 10px;
+  display: inline;
+  color: $text;
+  font-family: $primary-heading;
+}
+
+//* Header *//
+
+header {
+  background-color: $header;
+  padding-bottom: 10px;
+}
+
+
+.header-container {
+  width: 1100px;
+  padding: 0;
+}
+
+.nav-left {
+  margin-top: 40px;
+  margin-left: 40px;
+  height: 55px;
+}
+
+.cat-logo::before {
+  content: url(../icons/cat-icon-big.png);
+  margin-top: 15px;
+  margin-left: 120px;
+  float: left;
+}
+
+.nav-search {
+  margin: 0;
+  padding: 0;
+}
+
+input[type="search"] {
+  position: relative;
+  width: 360px;
+  min-height: 28px;
+  padding: 4px 20px 4px 8px;
+  font-size: 12px;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 3px;
+  outline: none;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+}
+
+.header-text-start {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 20px;
+  color: $text;
+}
+
+.header-text {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 20px;
+  color: $text;
+}
+
+.gravatar::before {
+  content: url(../icons/me-thumb.jpg);
+  margin-top: 0;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+  line-height: 1;
+  vertical-align: middle;
+  border-radius: 3px;
+  margin-left: 100px;
+  }
+
+.add-icon::before {
+  content: url(../icons/plus-icon.png);
+  margin-top: 0;
+  display: inline-block;
+  overflow: hidden;
+  line-height: 1;
+  vertical-align: middle;
+  margin-left: 5px;
+  }
+
+
+.notifications::before {
+  content: url(../icons/notifications.png);
+  margin-top: 0;
+  display: inline-block;
+  overflow: hidden;
+  line-height: 1;
+  vertical-align: middle;
+  margin-left: 5px;
+  }
+
+.settings::before {
+  content: url(../icons/tools-icon.png);
+  margin-top: 0;
+  display: inline-block;
+  overflow: hidden;
+  line-height: 1;
+  vertical-align: middle;
+  margin-left: 5px;
+  }
+
+.sign-out::before {
+  content: url(../icons/logout-icon.png);
+  margin-top: 0;
+  display: inline-block;
+  overflow: hidden;
+  line-height: 1;
+  vertical-align: middle;
+  margin-left: 5px;
+  }
+
+//* Below Fold *//
+
+.container {
+  width: 1200px;
+}
+
+.entire-page {
+  padding:10px;
+}
+
+//* Sidebar *//
+
+.sidebar {
+  float: left;
+  width: 250px;
+  padding: 0;
+  margin-top: 0;
+  margin-left: 120px;
+  text-align: left;
+}
+
+//* Content *//
+
+.main-content {
+  display: inline-block;
+  width: 740px;
+  padding: 0;
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+.tabbed-content {
+  display: none;
+}
+
+.active {
+  display: inherit;
+}
+
+//* Footer *//
+
+.footer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.copyright {
+  font-size: 12px;
+  line-height: 1.5;
+  color: $dark-gray;
+  margin-left: 120px;
+  font-family: $primary-heading;
+}
+
+.footer-links {
+  font-size: 12px;
+  line-height: 1.5;
+  color: $links;
+  font-family: $primary-heading;
+}
+
+.small-cat::before {
+  content: url(../icons/small-cat.png);
+  margin-top: 20px;
+  margin-left: 120px;
+  display: inline-block;
+}
+
+.footer-links-right {
+  font-size: 12px;
+  line-height: 1.5;
+  color: $links;
+  font-family: $primary-heading;
+  margin-left: 120px;
+}
