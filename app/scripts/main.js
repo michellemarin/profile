@@ -1,25 +1,38 @@
 "use strict";
 
-/* Templates */
 
-var withAjax = function () {
-  $.ajax({
-    method: "GET",
-    url:
-    "https://api.github.com/users/michellemarin/repos"
-  }).done(function(response) {
-    //do something
-  });
-}
+
+
+
+
 
 /* Functions */
 
+var myProfile = function () {
+  $.ajax({
+    url: 'https://api.github.com/users/michellemarin'
+  }).done(function (data) {
+
+    $('.info').text(JSON.stringify(data));
+
+    setProfileInfo(data);
+
+  }).fail(function (data) {
+
+    $('.error').removeClass('fade').text(data.responseJSON.message);
+
+    setTimeout(function () {
+      $('.error').addClass('fade');
+    }, 1000);
+
+  });
+};
 
 
-
-/* Jquery */
-
-
+var setProfileInfo = function (myProfile) {
+$('#profileContainer').html(
+_.template($('#profileTemplate').html())(myProfile));
+}
 
 
 /* API calls */

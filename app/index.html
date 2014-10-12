@@ -35,32 +35,37 @@
 
   <section class="container">
     <div class="entire-page">
-        <div class="sidebar">
-          wow hello!
-          <div id="my-headshot"></div>
 
-        </div>
+  <div class = "sidebar">
+    <div id='profileContainer'>
+  <!-- Notice that this container is empty -->
+  </div>
 
-        <div class="main-content">
-          I'm over here unicorn ham sandwhich
-          Lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget
-           dolor. Aenean massa. Cum sociis natoque
-           penatibus et magnis dis parturient montes,
-           nascetur ridiculus mus. Donec quam felis,
-           ultricies nec, pellentesque eu, pretium quis,
-           sem. Nulla consequat massa quis enim. Donec
-           pede justo, fringilla vel, aliquet nec, vulputate
-           eget, arcu. In enim justo, rhoncus ut, imperdiet
-           a, venenatis vitae, justo. Nullam dictum felis eu
-           pede mollis pretium. Integer tincidunt. Cras dap
 
+  <div id="profileTemplate">
+    <h2>Obviously one big EPIC FAIL!! YOU FAIL JS!</h2>
+    <!-- Scripts do not show up on the page -->
+    <script id='profileTemplate' type='text/template'>
+      <!-- What goes in a template is just normal HTML with special variable tags that grab info from a javascript object {}. -->
+      <ul>
+        <li><%= login %></li>
+      </ul>
+    </script>
+  </div>
+  </div>
+
+      <div class="main-content">
+          Suspendisse enim turpis, dictum sed, iaculis a, condimentum
+           nec, nisi. Phasellus blandit leo ut odio. Integer ante arcu,
+           accumsan a, consectetuer eget, posuere ut, mauris. Morbi nec
+           metus.
         </div>
 
     </div>
   </section>
 
   <footer>
+
     <ul>
       <li class="copyright">2014 GitHub, Inc.</li>
       <li class="footer-links">Terms</li>
@@ -85,6 +90,7 @@
 <script src='underscore/underscore.js' ></script>
 <!---MY SCRIPTS -->
 <script src='scripts/main.js'          ></script>
+
 </body>
 
 </html>
