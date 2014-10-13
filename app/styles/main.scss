@@ -6,10 +6,11 @@ $dark-blue: #244F81;
 $light-blue: #F1F6FB;
 $links: #4183C4;
 $light-gray: #F8F8F8;
+$medium-gray: #999999;
 $dark-gray: #777;
 $header: #F5F5F5;
 $primary-heading: 13px/1.4 Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-$secondary-heading: 'Open Sans', Verdana, sans-serif;
+$secondary-heading: 'Helvetica', arial, freesans, sans-serif;
 
 
 //* Global *//
@@ -206,6 +207,34 @@ input[type="search"] {
   margin-top: 0;
   margin-left: 120px;
   text-align: left;
+}
+
+.my-avatar img {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 250px;
+    height: auto;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+
+
+.numbers {
+  display: inline-block;
+  color: $links;
+  font-size: 2em;
+  font-family: $secondary-heading;
+}
+
+.num-desc {
+  display: inline-block;
+  color: $medium-gray;
+  font-size: 1em;
+  font-family: $secondary-heading;
 }
 
 //* Content *//

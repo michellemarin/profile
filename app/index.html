@@ -38,27 +38,20 @@
 
   <div class = "sidebar">
     <div id='profileContainer'>
-  <!-- Notice that this container is empty -->
-  </div>
+      <!-- Notice that this container is empty -->
+    </div>
 
 
-  <div id="profileTemplate">
-    <h2>Obviously one big EPIC FAIL!! YOU FAIL JS!</h2>
-    <!-- Scripts do not show up on the page -->
-    <script id='profileTemplate' type='text/template'>
-      <!-- What goes in a template is just normal HTML with special variable tags that grab info from a javascript object {}. -->
-      <ul>
-        <li><%= login %></li>
-      </ul>
-    </script>
-  </div>
+
   </div>
 
       <div class="main-content">
-          Suspendisse enim turpis, dictum sed, iaculis a, condimentum
-           nec, nisi. Phasellus blandit leo ut odio. Integer ante arcu,
-           accumsan a, consectetuer eget, posuere ut, mauris. Morbi nec
-           metus.
+
+        <div id='repoContainer'>
+          <!-- Notice that this container is empty -->
+        </div>
+
+
         </div>
 
     </div>
@@ -85,6 +78,35 @@
   </footer>
 
 </div>
+<script id='profileTemplate' type='text/template'>
+  <!-- What goes in a template is just normal HTML with special variable tags that grab info from a javascript object {}. -->
+  <ul>
+    <li class="my-avatar"><img src="<%= avatar_url %>"></li>
+    <li><%= login %></li>
+    <li>Joined on <%= created_at %></li>
+  </ul>
+
+  <ul>
+  <li class="numbers"><%= followers %></li>
+  <li class="numbers"><%= public_gists %></li>
+  <li class="numbers"><%= following %></li>
+  </ul>
+
+  <ul>
+  <li class="num-desc">Followers</li>
+  <li class="num-desc">Starred</li>
+  <li class="num-desc">Following</li>
+  </ul>
+</script>
+
+<script id='repoTemplate' type='text/template'>
+  <!-- What goes in a template is just normal HTML with special variable tags that grab info from a javascript object {}. -->
+  <ul>
+    <li><%= name %></li>
+  </ul>
+</script>
+
+
 <!---LIBS -->
 <script src='jquery/dist/jquery.js'    ></script>
 <script src='underscore/underscore.js' ></script>

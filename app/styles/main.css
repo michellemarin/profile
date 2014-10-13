@@ -162,6 +162,29 @@ input[type="search"] {
   margin-left: 120px;
   text-align: left; }
 
+.my-avatar img {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 250px;
+  height: auto;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px; }
+
+.numbers {
+  display: inline-block;
+  color: #4183C4;
+  font-size: 2em;
+  font-family: 'Helvetica', arial, freesans, sans-serif; }
+
+.num-desc {
+  display: inline-block;
+  color: #999999;
+  font-size: 1em;
+  font-family: 'Helvetica', arial, freesans, sans-serif; }
+
 .main-content {
   display: inline-block;
   width: 740px;
