@@ -26,7 +26,6 @@
           <li class="header-text">michellemarin</li>
           <li class="add-icon"></li>
           <li class="notifications"></li>
-          <li class="settings"></li>
           <li class="sign-out"></li>
         </ul>
       </div>
@@ -80,13 +79,18 @@
 </div>
 <script id='profileTemplate' type='text/template'>
   <!-- What goes in a template is just normal HTML with special variable tags that grab info from a javascript object {}. -->
-  <ul>
+  <ul class="name-profile">
     <li class="my-avatar"><img src="<%= avatar_url %>"></li>
-    <li><%= login %></li>
-    <li>Joined on <%= created_at %></li>
+    <li class="vcard-fullname"><%= name %></li>
+    <li class="vcard-username"><%= login %></li>
   </ul>
 
-  <ul>
+<ul class="vcard-details">
+  <li class="home-location"><%= location %></li>
+  <li class="email"><%= email %></li>
+  <li>Joined on <%= created_at %></li>
+</ul>
+  <ul class="numbers-contain">
   <li class="numbers"><%= followers %></li>
   <li class="numbers"><%= public_gists %></li>
   <li class="numbers"><%= following %></li>

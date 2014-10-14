@@ -5,13 +5,14 @@ $white: #fff;
 $dark-blue: #244F81;
 $light-blue: #F1F6FB;
 $links: #4183C4;
-$light-gray: #F8F8F8;
+$light-gray: #E5E5E5;
 $medium-gray: #999999;
 $dark-gray: #777;
+$darker-gray: #666;
 $header: #F5F5F5;
 $primary-heading: 13px/1.4 Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
 $secondary-heading: 'Helvetica', arial, freesans, sans-serif;
-
+$bold-heading: 'Helvetica bold', arial, freesans, sans-serif;
 
 //* Global *//
 
@@ -60,8 +61,9 @@ p {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10px;
   overflow: hidden;
+  border-bottom: solid 1px $light-gray;
 }
 
 li {
@@ -71,11 +73,12 @@ li {
   font-family: $primary-heading;
 }
 
+
 //* Header *//
 
 header {
   background-color: $header;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 
 
@@ -88,6 +91,11 @@ header {
   margin-top: 40px;
   margin-left: 40px;
   height: 55px;
+
+  ul {
+    border-style: none;
+    border-bottom: 0px;
+    }
 }
 
 .cat-logo::before {
@@ -214,14 +222,71 @@ input[type="search"] {
     left: 0;
     right: 0;
     bottom: 0;
-    width: 250px;
+    width: 225px;
     height: auto;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
 }
 
+.name-profile li {
+  display: block;
+}
 
+.vcard-fullname {
+  font-family: $secondary-heading;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  font-style: bold;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  text-overflow: ellipsis;
+}
+
+.vcard-username {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  color: $darker-gray;
+  text-overflow: ellipsis;
+}
+
+.vcard-details {
+  list-style: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  li {
+  display: block;
+  }
+}
+
+.home-location::before {
+  content: url(/icons/mapdot.png);
+  position: relative;
+  top: 5px;
+}
+
+.home-location {
+  margin: 0;
+  padding: 0;
+}
+
+.email::before {
+  content: url(/icons/maillogo.png);
+  position: relative;
+  top: 5px;
+}
+
+.numbers-contain {
+  display: inline-block;
+}
 
 .numbers {
   display: inline-block;
