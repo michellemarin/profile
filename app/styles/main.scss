@@ -10,7 +10,7 @@ $medium-gray: #999999;
 $dark-gray: #777;
 $darker-gray: #666;
 $header: #F5F5F5;
-$primary-heading: 13px/1.4 Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+$primary-heading: 14px/1.6 Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
 $secondary-heading: 'Helvetica', arial, freesans, sans-serif;
 $bold-heading: 'Helvetica bold', arial, freesans, sans-serif;
 
@@ -61,7 +61,7 @@ p {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 10px;
+  padding: 15px;
   overflow: hidden;
   border-bottom: solid 1px $light-gray;
 }
@@ -278,28 +278,96 @@ input[type="search"] {
   padding: 0;
 }
 
-.email::before {
-  content: url(/icons/maillogo.png);
-  position: relative;
-  top: 5px;
+.email {
+
+  color: $links;
+
+  &::before {
+    content: url(/icons/maillogo.png);
+    position: relative;
+    top: 5px;
+  }
+
+}
+
+.join-date {
+
+  &::before {
+    content: url(/icons/clocklogo.png);
+    position: relative;
+    top: 5px;
+  }
+}
+
+.blog {
+
+    color: $links;
+
+  &::before {
+    content: url(/icons/linklogo.png);
+    position: relative;
+    top: 5px;
+  }
 }
 
 .numbers-contain {
-  display: inline-block;
+  display: block;
+  text-align: left;
+  padding: 0;
 }
 
-.numbers {
-  display: inline-block;
+.num-followers {
+
   color: $links;
-  font-size: 2em;
-  font-family: $secondary-heading;
+  margin-left: 15px;
+
+  &::after {
+    content: 'Followers';
+    font-size: 0.3em;
+    color: $medium-gray;
+    text-align: center;
+    position: relative;
+    top: 14px;
+    right: 28px;
+  }
 }
 
-.num-desc {
-  display: inline-block;
-  color: $medium-gray;
-  font-size: 1em;
+.num-starred {
+
+  color: $links;
+
+  &::after {
+    content: 'Starred';
+    font-size: 0.3em;
+    color: $medium-gray;
+    text-align: center;
+    position: relative;
+    top: 14px;
+    right: 24px;
+  }
+}
+.num-following {
+
+  color: $links;
+
+  &::after {
+    content: 'Following';
+    font-size: 0.3em;
+    color: $medium-gray;
+    text-align: center;
+    position: relative;
+    top: 14px;
+    right: 28px;
+  }
+}
+
+.numbers-contain {
+  display: block;
+  font-size: 2.2em;
   font-family: $secondary-heading;
+  text-align: left;
+  padding-bottom: 5px;
+
 }
 
 //* Content *//

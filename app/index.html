@@ -88,19 +88,15 @@
 <ul class="vcard-details">
   <li class="home-location"><%= location %></li>
   <li class="email"><%= email %></li>
-  <li>Joined on <%= created_at %></li>
+  <li class="blog"><%= blog %></li>
+  <li class="join-date">Joined on <%= created_at %></li>
 </ul>
   <ul class="numbers-contain">
-  <li class="numbers"><%= followers %></li>
-  <li class="numbers"><%= public_gists %></li>
-  <li class="numbers"><%= following %></li>
+  <li class="num-followers"><%= followers %></li>
+  <li class="num-starred"><%= public_gists %></li>
+  <li class="num-following"><%= following %></li>
   </ul>
 
-  <ul>
-  <li class="num-desc">Followers</li>
-  <li class="num-desc">Starred</li>
-  <li class="num-desc">Following</li>
-  </ul>
 </script>
 
 <script id='repoTemplate' type='text/template'>
